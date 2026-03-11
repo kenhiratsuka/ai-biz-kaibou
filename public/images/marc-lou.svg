@@ -1,0 +1,62 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f8fafc"/>
+  <rect x="0" y="0" width="800" height="6" fill="#f59e0b"/>
+
+  <text x="400" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">Marc Lou のビジネスモデル</text>
+  <text x="400" y="66" text-anchor="middle" font-size="12" fill="#64748b">ShipFast 買い切り × バイブコーディング = 年間約1.5億円</text>
+
+  <!-- Customer -->
+  <rect x="40" y="110" width="160" height="60" rx="12" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="120" y="137" text-anchor="middle" font-size="12" fill="#92400e">👤 ターゲット顧客</text>
+  <text x="120" y="157" text-anchor="middle" font-size="11" fill="#b45309">個人開発者・創業者</text>
+
+  <!-- Arrow -->
+  <line x1="200" y1="140" x2="250" y2="140" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Product -->
+  <rect x="250" y="95" width="200" height="130" rx="12" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="350" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">プロダクト</text>
+  <rect x="265" y="130" width="170" height="36" rx="6" fill="#fef9c3"/>
+  <text x="350" y="148" text-anchor="middle" font-size="11" fill="#713f12">ShipFast</text>
+  <text x="350" y="163" text-anchor="middle" font-size="10" fill="#92400e">Next.jsボイラープレート</text>
+  <rect x="265" y="174" width="170" height="36" rx="6" fill="#f1f5f9"/>
+  <text x="350" y="192" text-anchor="middle" font-size="11" fill="#475569">AI系プロダクト群</text>
+  <text x="350" y="207" text-anchor="middle" font-size="10" fill="#64748b">継続的にリリース</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="160" x2="500" y2="160" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Revenue -->
+  <rect x="500" y="110" width="160" height="100" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="580" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">収益モデル</text>
+  <text x="580" y="158" text-anchor="middle" font-size="11" fill="#047857">買い切り 約2.5万円</text>
+  <text x="580" y="178" text-anchor="middle" font-size="11" fill="#047857">（1回売れたら終わり）</text>
+  <text x="580" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#059669">年間約1.5億円</text>
+
+  <!-- Work style badge -->
+  <rect x="680" y="110" width="100" height="100" rx="12" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="730" y="148" text-anchor="middle" font-size="11" font-weight="bold" fill="#c2410c">週3日</text>
+  <text x="730" y="168" text-anchor="middle" font-size="11" fill="#ea580c">1日4時間</text>
+  <text x="730" y="188" text-anchor="middle" font-size="10" fill="#9a3412">で運営</text>
+
+  <!-- AI band -->
+  <rect x="40" y="290" width="720" height="80" rx="12" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="400" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#6b21a8">🤖 AI・自動化レイヤー</text>
+  <text x="160" y="342" text-anchor="middle" font-size="11" fill="#7e22ce">バイブコーディング</text>
+  <text x="160" y="357" text-anchor="middle" font-size="10" fill="#9333ea">（Claude / GPT-4）</text>
+  <text x="370" y="342" text-anchor="middle" font-size="11" fill="#7e22ce">CS自動対応</text>
+  <text x="370" y="357" text-anchor="middle" font-size="10" fill="#9333ea">（AIチャットボット）</text>
+  <text x="580" y="342" text-anchor="middle" font-size="11" fill="#7e22ce">文章生成</text>
+  <text x="580" y="357" text-anchor="middle" font-size="10" fill="#9333ea">（LP・SNS下書き）</text>
+
+  <line x1="350" y1="225" x2="350" y2="288" stroke="#c4b5fd" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow-purple)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#c4b5fd"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,54 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f8fafc"/>
+  <rect x="0" y="0" width="800" height="6" fill="#10b981"/>
+
+  <text x="400" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">Daniel Vassallo のビジネスモデル</text>
+  <text x="400" y="66" text-anchor="middle" font-size="12" fill="#64748b">「小さな賭け」×分散 = 年間約7,500万円</text>
+
+  <!-- オーディエンス（中心） -->
+  <rect x="300" y="100" width="200" height="60" rx="12" fill="#d1fae5" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="400" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#065f46">👥 オーディエンス</text>
+  <text x="400" y="148" text-anchor="middle" font-size="11" fill="#047857">X 約10万フォロワー</text>
+
+  <!-- 複数の収益源 -->
+  <!-- コース -->
+  <rect x="40" y="210" width="150" height="70" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="115" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">デジタルコース</text>
+  <text x="115" y="255" text-anchor="middle" font-size="11" fill="#059669">約2,300〜4,500円</text>
+  <text x="115" y="270" text-anchor="middle" font-size="10" fill="#64748b">（Gumroad販売）</text>
+
+  <!-- コミュニティ -->
+  <rect x="210" y="210" width="150" height="70" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="285" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">コミュニティ</text>
+  <text x="285" y="255" text-anchor="middle" font-size="11" fill="#059669">約3,000円/月</text>
+  <text x="285" y="270" text-anchor="middle" font-size="10" fill="#64748b">（メンバーシップ）</text>
+
+  <!-- SaaS -->
+  <rect x="380" y="210" width="150" height="70" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="455" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">SaaSツール</text>
+  <text x="455" y="255" text-anchor="middle" font-size="11" fill="#059669">月額サブスク</text>
+  <text x="455" y="270" text-anchor="middle" font-size="10" fill="#64748b">（複数）</text>
+
+  <!-- スポンサー -->
+  <rect x="550" y="210" width="150" height="70" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="625" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">スポンサー</text>
+  <text x="625" y="255" text-anchor="middle" font-size="11" fill="#059669">投稿・ニュースレター</text>
+  <text x="625" y="270" text-anchor="middle" font-size="10" fill="#64748b">広告収入</text>
+
+  <!-- Arrows from audience to products -->
+  <line x1="340" y1="160" x2="130" y2="208" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="370" y1="160" x2="295" y2="208" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="430" y1="160" x2="455" y2="208" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="160" x2="610" y2="208" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Total -->
+  <rect x="280" y="310" width="240" height="50" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="400" y="332" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">合計 年間約7,500万円</text>
+  <text x="400" y="350" text-anchor="middle" font-size="11" fill="#047857">1つの失敗が致命傷にならない構造</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

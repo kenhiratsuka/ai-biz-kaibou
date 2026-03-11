@@ -1,0 +1,66 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f8fafc"/>
+  <rect x="0" y="0" width="800" height="6" fill="#0d9488"/>
+
+  <text x="400" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">入江慎吾のビジネスモデル</text>
+  <text x="400" y="66" text-anchor="middle" font-size="12" fill="#64748b">受託をやめて個人開発に全振り → MENTA 月140万円 → 億単位で売却 → AI開発へ</text>
+
+  <!-- Phase 1 -->
+  <rect x="20" y="105" width="140" height="75" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="90" y="130" text-anchor="middle" font-size="11" font-weight="bold" fill="#475569">受託開発</text>
+  <text x="90" y="150" text-anchor="middle" font-size="10" fill="#64748b">10年間の</text>
+  <text x="90" y="165" text-anchor="middle" font-size="10" fill="#64748b">フリーランス</text>
+
+  <!-- X mark and arrow -->
+  <text x="172" y="148" font-size="16" fill="#ef4444">✕</text>
+  <line x1="185" y1="143" x2="215" y2="143" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="188" y="132" font-size="9" fill="#ef4444">2018年やめる</text>
+
+  <!-- Phase 2: MENTA -->
+  <rect x="215" y="95" width="160" height="120" rx="12" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5"/>
+  <text x="295" y="120" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f766e">MENTA</text>
+  <text x="295" y="140" text-anchor="middle" font-size="10" fill="#0d9488">メンタリングマッチング</text>
+  <text x="295" y="160" text-anchor="middle" font-size="10" fill="#0d9488">2018年6月リリース</text>
+  <line x1="225" y1="175" x2="365" y2="175" stroke="#99f6e4" stroke-width="1"/>
+  <text x="295" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#047857">月140万円達成</text>
+  <text x="295" y="208" text-anchor="middle" font-size="10" fill="#059669">（2020年1月・note公開）</text>
+
+  <!-- Arrow to exit -->
+  <line x1="375" y1="143" x2="415" y2="143" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="377" y="132" font-size="9" fill="#64748b">2020年10月</text>
+  <text x="377" y="157" font-size="9" fill="#64748b">売却</text>
+
+  <!-- Phase 3: Exit -->
+  <rect x="415" y="105" width="140" height="75" rx="12" fill="#fef9c3" stroke="#fde047" stroke-width="1.5"/>
+  <text x="485" y="130" text-anchor="middle" font-size="11" font-weight="bold" fill="#713f12">ランサーズに</text>
+  <text x="485" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#713f12">M&A売却</text>
+  <text x="485" y="170" text-anchor="middle" font-size="10" fill="#92400e">億単位の譲渡</text>
+
+  <!-- Arrow to AI -->
+  <line x1="555" y1="143" x2="590" y2="143" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Phase 4: AI -->
+  <rect x="590" y="95" width="185" height="120" rx="12" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="682" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">現在：AI開発</text>
+  <rect x="600" y="125" width="165" height="25" rx="5" fill="#fff"/>
+  <text x="682" y="142" text-anchor="middle" font-size="10" fill="#5b21b6">ジムインAI（AI業務補助）</text>
+  <rect x="600" y="156" width="165" height="25" rx="5" fill="#fff"/>
+  <text x="682" y="173" text-anchor="middle" font-size="10" fill="#5b21b6">Autoron（自動化ツール）</text>
+  <text x="682" y="204" text-anchor="middle" font-size="10" fill="#7c3aed">Lancers LLM Labs主導</text>
+
+  <!-- AI band -->
+  <rect x="20" y="300" width="755" height="75" rx="12" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="400" y="323" text-anchor="middle" font-size="12" font-weight="bold" fill="#6b21a8">🤖 AI・自動化レイヤー</text>
+  <text x="155" y="348" text-anchor="middle" font-size="11" fill="#7e22ce">AIコーディング補助</text>
+  <text x="155" y="363" text-anchor="middle" font-size="10" fill="#9333ea">開発速度を大幅に向上</text>
+  <text x="400" y="348" text-anchor="middle" font-size="11" fill="#7e22ce">Todoist（タスク管理）</text>
+  <text x="400" y="363" text-anchor="middle" font-size="10" fill="#9333ea">前日に翌日のタスクを3つに絞る</text>
+  <text x="630" y="348" text-anchor="middle" font-size="11" fill="#7e22ce">午前3時間の集中ブロック</text>
+  <text x="630" y="363" text-anchor="middle" font-size="10" fill="#9333ea">メール・チャットをシャットアウト</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

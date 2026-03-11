@@ -1,0 +1,71 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f8fafc"/>
+  <rect x="0" y="0" width="800" height="6" fill="#f97316"/>
+
+  <text x="400" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">catnose のビジネスモデル</text>
+  <text x="400" y="66" text-anchor="middle" font-size="12" fill="#64748b">メディア・テーマ販売で収益化 → Zenn売却 → 好きなものだけ作るAI開発へ</text>
+
+  <!-- Phase 1: サルワカ -->
+  <rect x="20" y="105" width="155" height="110" rx="12" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="97" y="128" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">収益の土台づくり</text>
+  <rect x="30" y="136" width="135" height="26" rx="5" fill="#fff"/>
+  <text x="97" y="153" text-anchor="middle" font-size="10" fill="#b45309">サルワカ（メディア）</text>
+  <rect x="30" y="168" width="135" height="26" rx="5" fill="#fff"/>
+  <text x="97" y="185" text-anchor="middle" font-size="10" fill="#b45309">WordPressテーマ販売</text>
+  <text x="97" y="208" text-anchor="middle" font-size="9" fill="#92400e">広告・販売収益で安定化</text>
+
+  <!-- Arrow -->
+  <line x1="175" y1="158" x2="210" y2="158" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Phase 2: プロダクト群 -->
+  <rect x="210" y="95" width="195" height="145" rx="12" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="307" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">個人プロダクト開発</text>
+  <rect x="220" y="126" width="175" height="26" rx="5" fill="#ffedd5"/>
+  <text x="307" y="143" text-anchor="middle" font-size="10" fill="#c2410c">RESUME（ポートフォリオ）</text>
+  <rect x="220" y="158" width="175" height="26" rx="5" fill="#dbeafe"/>
+  <text x="307" y="175" text-anchor="middle" font-size="10" fill="#1d4ed8">Zenn（技術情報共有）</text>
+  <rect x="220" y="190" width="175" height="26" rx="5" fill="#f0fdf4"/>
+  <text x="307" y="207" text-anchor="middle" font-size="10" fill="#15803d">しずかなインターネット</text>
+  <text x="307" y="232" text-anchor="middle" font-size="9" fill="#64748b">「自分が欲しいから作る」</text>
+
+  <!-- Arrow -->
+  <line x1="405" y1="158" x2="440" y2="158" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="407" y="147" font-size="9" fill="#64748b">Zenn</text>
+  <text x="407" y="171" font-size="9" fill="#64748b">売却</text>
+
+  <!-- Phase 3: 売却 -->
+  <rect x="440" y="115" width="145" height="70" rx="12" fill="#fef9c3" stroke="#fde047" stroke-width="1.5"/>
+  <text x="512" y="140" text-anchor="middle" font-size="11" font-weight="bold" fill="#713f12">クラスメソッドへ</text>
+  <text x="512" y="158" text-anchor="middle" font-size="11" font-weight="bold" fill="#713f12">Zennを売却</text>
+  <text x="512" y="176" text-anchor="middle" font-size="10" fill="#92400e">（2021年）</text>
+
+  <!-- Arrow -->
+  <line x1="585" y1="150" x2="620" y2="150" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Phase 4: AI -->
+  <rect x="620" y="100" width="158" height="140" rx="12" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="699" y="123" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">現在：AI系プロダクト</text>
+  <rect x="630" y="131" width="138" height="30" rx="5" fill="#fff"/>
+  <text x="699" y="148" text-anchor="middle" font-size="10" fill="#5b21b6">だれでもAIメーカー</text>
+  <text x="699" y="162" text-anchor="middle" font-size="9" fill="#7c3aed">ノーコードでAIサービス構築</text>
+  <rect x="630" y="170" width="138" height="30" rx="5" fill="#fff"/>
+  <text x="699" y="187" text-anchor="middle" font-size="10" fill="#5b21b6">Nani!?（AI翻訳）</text>
+  <text x="699" y="201" text-anchor="middle" font-size="9" fill="#7c3aed">SNS投稿をリアルタイム翻訳</text>
+  <text x="699" y="230" text-anchor="middle" font-size="9" fill="#6d28d9">「好きなものだけ作る」</text>
+
+  <!-- AI band -->
+  <rect x="20" y="298" width="758" height="75" rx="12" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="400" y="321" text-anchor="middle" font-size="12" font-weight="bold" fill="#6b21a8">🤖 AI・自動化レイヤー</text>
+  <text x="155" y="346" text-anchor="middle" font-size="11" fill="#7e22ce">AIコーディング補助</text>
+  <text x="155" y="361" text-anchor="middle" font-size="10" fill="#9333ea">開発サイクルの高速化</text>
+  <text x="400" y="346" text-anchor="middle" font-size="11" fill="#7e22ce">だれでもAIメーカー（自社製）</text>
+  <text x="400" y="361" text-anchor="middle" font-size="10" fill="#9333ea">プロダクト自体がAI活用の体現</text>
+  <text x="635" y="346" text-anchor="middle" font-size="11" fill="#7e22ce">1人でデザイン・開発・運営</text>
+  <text x="635" y="361" text-anchor="middle" font-size="10" fill="#9333ea">外注なし・チームなし</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

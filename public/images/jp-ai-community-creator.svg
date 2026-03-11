@@ -1,0 +1,64 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f8fafc"/>
+  <rect x="0" y="0" width="800" height="6" fill="#ec4899"/>
+
+  <text x="400" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">AI×発信ビジネスのビジネスモデル</text>
+  <text x="400" y="66" text-anchor="middle" font-size="12" fill="#64748b">無料発信 → コミュニティ → 個別コンサル = 月収約200万円</text>
+
+  <!-- Step 1: 発信 -->
+  <rect x="30" y="110" width="150" height="70" rx="12" fill="#fce7f3" stroke="#f9a8d4" stroke-width="1.5"/>
+  <text x="105" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#831843">① 無料発信</text>
+  <text x="105" y="155" text-anchor="middle" font-size="11" fill="#9d174d">X・note・YouTube</text>
+  <text x="105" y="172" text-anchor="middle" font-size="10" fill="#be185d">AI活用ノウハウを毎日投稿</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="145" x2="225" y2="145" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="202" y="138" text-anchor="middle" font-size="9" fill="#64748b">フォロワー獲得</text>
+
+  <!-- Step 2: 無料コミュニティ -->
+  <rect x="225" y="110" width="150" height="70" rx="12" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="300" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">② 無料コミュニティ</text>
+  <text x="300" y="155" text-anchor="middle" font-size="11" fill="#475569">Discord / LINE</text>
+  <text x="300" y="172" text-anchor="middle" font-size="10" fill="#64748b">AI活用テンプレート配布</text>
+
+  <!-- Arrow -->
+  <line x1="375" y1="145" x2="420" y2="145" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="397" y="138" text-anchor="middle" font-size="9" fill="#64748b">有料転換</text>
+
+  <!-- Step 3: 収益 -->
+  <rect x="420" y="90" width="180" height="160" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="510" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">③ 収益化</text>
+
+  <rect x="435" y="125" width="150" height="38" rx="6" fill="#d1fae5"/>
+  <text x="510" y="142" text-anchor="middle" font-size="11" fill="#047857">有料コミュニティ</text>
+  <text x="510" y="157" text-anchor="middle" font-size="10" fill="#059669">月額9,800円 × 100人 ≒ 100万円</text>
+
+  <rect x="435" y="172" width="150" height="38" rx="6" fill="#d1fae5"/>
+  <text x="510" y="189" text-anchor="middle" font-size="11" fill="#047857">個別コンサル</text>
+  <text x="510" y="204" text-anchor="middle" font-size="10" fill="#059669">月30万円 × 3名 ≒ 90万円</text>
+
+  <text x="510" y="238" text-anchor="middle" font-size="13" font-weight="bold" fill="#059669">合計 月約200万円</text>
+
+  <!-- Work hours badge -->
+  <rect x="625" y="110" width="145" height="90" rx="12" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="697" y="138" text-anchor="middle" font-size="11" font-weight="bold" fill="#c2410c">副業スタート</text>
+  <text x="697" y="158" text-anchor="middle" font-size="11" fill="#ea580c">会社員しながら</text>
+  <text x="697" y="178" text-anchor="middle" font-size="11" fill="#ea580c">1日2〜3時間</text>
+  <text x="697" y="196" text-anchor="middle" font-size="10" fill="#9a3412">から始めた</text>
+
+  <!-- AI band -->
+  <rect x="30" y="300" width="740" height="75" rx="12" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="400" y="323" text-anchor="middle" font-size="12" font-weight="bold" fill="#6b21a8">🤖 AI・自動化レイヤー</text>
+  <text x="150" y="348" text-anchor="middle" font-size="11" fill="#7e22ce">Claude・ChatGPT</text>
+  <text x="150" y="363" text-anchor="middle" font-size="10" fill="#9333ea">記事・投稿の下書き生成</text>
+  <text x="370" y="348" text-anchor="middle" font-size="11" fill="#7e22ce">Notion AI</text>
+  <text x="370" y="363" text-anchor="middle" font-size="10" fill="#9333ea">コミュニティ資料の自動整理</text>
+  <text x="600" y="348" text-anchor="middle" font-size="11" fill="#7e22ce">Buffer / 自動投稿</text>
+  <text x="600" y="363" text-anchor="middle" font-size="10" fill="#9333ea">SNS投稿スケジューリング</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

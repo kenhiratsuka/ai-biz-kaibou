@@ -47,16 +47,3 @@ jobs:
           git add content/articles/
           git commit -m "feat: add new articles $(date +'%Y-%m-%d %H:%M')"
           git push
-
-      - name: Trigger X post if new articles
-        if: steps.check.outputs.has_changes == 'true'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GH_PAT }}
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'post-to-x.yml',
-              ref: 'main',
-            })

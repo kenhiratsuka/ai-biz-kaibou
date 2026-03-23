@@ -1,9 +1,9 @@
 name: Fetch Articles
 
 on:
-  schedule:
-    # Run once a day: 8:00 JST
-    - cron: '0 23 * * *'
+  # schedule disabled — daily auto-fetch stopped
+  # schedule:
+  #   - cron: '0 23 * * *'
   workflow_dispatch:
 
 jobs:
